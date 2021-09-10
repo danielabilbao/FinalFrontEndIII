@@ -1,0 +1,66 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+.layout {
+  height: 100vh;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hina Mincho", serif;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/386/908/950/monster-silhouette-forest-night-wallpaper-preview.jpg");
+ 
+}
+
+.historia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.opciones {
+  color: white;
+}
+
+.opcion {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.recordatorio {
+  color: white;
+  margin-top: 60px;
+}
+
+.botones {
+  box-shadow: inset 0px 1px 0px 0px black;
+  background: linear-gradient(to bottom, red 5%, green 100%);
+  background-color: green;
+  border-radius: 6px;
+  border: 1px solid black;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: "Franklin Gothic Medium";
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px white;
+}
+.botones:hover {
+  background: linear-gradient(to bottom, green 5%, red 100%);
+  background-color: green;
+}
+.botones:active {
+  position: relative;
+  top: 1px;
+}
